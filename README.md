@@ -38,6 +38,15 @@ Fiji 실행한 상태에서 가로로 긴 툴바에서 `Plugins > Macros > Run..
 세 번쨰 팝업창 (`Select Output Directory`)이 뜨면 결과 데이터를 저장할 폴더 선택
 <br><br>
 
+### 4. Macro 코드 수정
+
+실험 환경에 따라 `filament_analysis.ijm` 의 설정값을 변경해야 할 수 있습니다.
+
+- 필라멘트 경계선 밝기값: 코드 8째줄 `thresholdVal` 값 수정
+
+- fps에 따른 Sampling Rate: milisecond 기준으로 코드 9째줄 `dt` 값 수정
+<br><br>
+
 ## 유의사항
 
 - 결과 데이터를 저장할 폴더는 미리 `새 폴더`로 만들어둬야 함
