@@ -47,6 +47,22 @@ Fiji 실행한 상태에서 가로로 긴 툴바에서 `Plugins > Macros > Run..
 - fps에 따른 Sampling Rate: milisecond 기준으로 코드 9째줄 `dt` 값 수정
 <br><br>
 
+### 5. Threshold 값 확인 방법
+
+**4.** 에서 적절한 `thresholdVal` 값을 확인하는 방법은 다음과 같습니다.
+<br><br>
+
+Fiji 실행한 상태에서 툴바에 원본 이미지 파일 Drag&Drop
+
+이미지 파일이 뜬 상태에서 `Image > Type` 에서 **반드시 8-bit** 선택하여 변경 후,
+
+`Image > Adjust > Threshold...` 선택 ( 혹은 단축어 `Ctrl + Shift + T`)
+
+`Threshold` 창이 뜨면 두 번째 사이드바를 이동시키며 Filament 영역에 해당하는 경계선의 밝기값 확인 (범위는 0~225)
+
+적절한 경계값 확인 후 해당 값을 `filament_analysis.ijm`의 코드 8째줄 `thresholdVal` 에 작성
+<br><br>
+
 ## 유의사항
 
 - 결과 데이터를 저장할 폴더는 미리 `새 폴더`로 만들어둬야 함
