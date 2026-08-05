@@ -6,6 +6,15 @@ DoS(Dripping-onto-Substrate) 결과에서 R/R0 데이터 추출 방법
 
 ## 사용방법
 
+### 0. 이미지 전처리 (Upsampling) 방법
+
+해당 Github Repository에 올린 `upsampling.py` 다운로드
+
+cmd에서 `python upsampling.py` 명령어 입력 (저장된 코드 파일의 이름과 동일한 명령어 입력)
+
+팝업창에서 순서대로 입력 폴더(원본 이미지)와 출력 폴더(해상도 처리 후이미지) 선택
+<br><br>
+
 ### 1. ImageJ/Fiji 다운로드
 
 Fiji Downloads 공식 웹사이트: https://imagej.net/software/fiji/downloads
