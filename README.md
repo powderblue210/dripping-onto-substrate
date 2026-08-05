@@ -2,6 +2,8 @@
 DoS(Dripping-onto-Substrate) 결과에서 R/R0 데이터 추출 방법
 
 실행 전 반드시 **유의사항** 확인!!
+
+`filament_diameter.ijm` 은 needle 직경 측정 없이 필라멘트 **지름** 만 측정!!
 <br><br>
 
 ## 사용방법
