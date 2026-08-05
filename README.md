@@ -10,7 +10,11 @@ DoS(Dripping-onto-Substrate) 결과에서 R/R0 데이터 추출 방법
 
 해당 Github Repository에 올린 `upsampling.py` 다운로드
 
-cmd에서 `python upsampling.py` 명령어 입력 (저장된 코드 파일의 이름과 동일한 명령어 입력)
+cmd(명령 프롬프트) 실행 후, cmd에 `cd (upsampling.py를 다운로드 받은 파일 경로)` 명령어 입력
+
+(ex. `cd "C:\Users\UserPC\Dos"` )
+
+cmd에서 `python upsampling.py` 명령어 입력
 
 팝업창에서 순서대로 입력 폴더(원본 이미지)와 출력 폴더(해상도 처리 후이미지) 선택
 <br><br>
