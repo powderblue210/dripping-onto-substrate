@@ -38,6 +38,13 @@ Fiji 실행한 상태에서 가로로 긴 툴바에서 `Plugins > Macros > Run..
 세 번쨰 팝업창 (`Select Output Directory`)이 뜨면 결과 데이터를 저장할 폴더 선택
 <br><br>
 
+`filament_analysis.ijm`: csv 및 모든 데이터에 대해 경계선 처리된 이미지 복사본을 저장
+
+`filament_csv.ijm`: 데이터에 대해 `R_pixel` 값만 csv 형태로 저장 (이미지 저장 X)
+
+(`filament_csv.ijm`의 경우 추후 mm/pixel 값 계산해서 R0_pixel 값을 구한 후 R/R0값 계산 가능)
+<br><br>
+
 ### 4. Macro 코드 수정
 
 실험 환경에 따라 `filament_analysis.ijm` 의 설정값을 변경해야 할 수 있습니다.
