@@ -21,7 +21,7 @@ def select_directories():
     # 2. Output Directory 선택
     output_path = filedialog.askdirectory(title="Upsampling결과 저장폴더 선택")
     if not output_path:
-        print("출력 폴더가 선택되지 않음. 프로그램 종료")
+        print("출력 폴더가 선택되지 않아 프로그램을 종료합니다.")
         sys.exit()
 
     return input_path, output_path
